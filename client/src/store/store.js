@@ -5,4 +5,13 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   strict: true,
+  state: {
+    token: null
+  },
+  mutations: {
+
+  },
+  actions: {
+    setToken ()
+  }
 })
