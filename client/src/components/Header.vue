@@ -5,14 +5,14 @@
         TabTracker
       </span>
     </v-toolbar-title>
-    
+
     <v-toolbar-items>
       <v-btn flat dark>
         Browse
       </v-btn>
-    
+
     </v-toolbar-items>
-    
+
     <v-spacer></v-spacer>
 
     <v-toolbar-items>
@@ -27,13 +27,13 @@
 </template>
 
 <script>
-  export default {
-    methods: {
-      navigateTo (route) {
-        this.$router.push(route)
-      }
+export default {
+  methods: {
+    navigateTo (route) {
+      this.$router.push(route)
     }
-  }  
+  }
+}
 </script>
 
 <style scoped>
@@ -44,4 +44,3 @@
   background-color: rgb(0, 233, 233);
 }
 </style>
-

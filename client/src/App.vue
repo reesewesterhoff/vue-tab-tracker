@@ -8,8 +8,7 @@
         </v-container>
       </main>
     </v-app>
-    
-    
+
   </div>
 </template>
 

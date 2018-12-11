@@ -7,11 +7,11 @@ import Vuetify from 'vuetify'
 import 'vuetify/dist/vuetify.min.css'
 import { sync } from 'vuex-router-sync'
 
-
 Vue.config.productionTip = false
 
 Vue.use(Vuetify)
 
+// eslint-disable-next-line
 sync(store, router)
 
 /* eslint-disable no-new */
